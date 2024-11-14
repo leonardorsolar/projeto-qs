@@ -2,9 +2,9 @@
 
 ## 1.1 Visão
 
-## 1.2 Camadas
+## 1.2 Equipe de desenvolvimento
 
-## 1.3 Tríade: tempo, custo e escopo
+## 1.3 Gerenciamento de projeto: tempo, custo e escopo
 
 ## 1.4 Processo de Desenvolvimento
 
@@ -19,7 +19,7 @@ Evolução
 
 # 02 Análise dos Requisitos
 
-# 03 Desgin (projetos)
+# 03 Design (projetos)
 
 # 04 Implementação (codificação)
 
