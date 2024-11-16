@@ -1,48 +1,64 @@
-# Plano do Projeto de Software: Plataforma Bancária Digital
+# Plano do Projeto de Software: Plataforma Bancária Digital - AppBank
 
 ## 1. Visão Geral do Projeto
 
 **Nome do Projeto**: Plataforma Bancária Digital  
+
 **Objetivo**: Criar uma plataforma bancária digital segura e intuitiva que permita aos usuários gerenciar suas contas, realizar transações, e acompanhar suas finanças de forma eficiente e acessível, com alta segurança.
 
 ## 2. Escopo do Projeto
 
 ### Funcionalidades Principais
 
-1. **Cadastro de Usuário e Login Seguro**
+Segue uma versão ajustada e melhorada dos requisitos do software, consolidando e organizando as funcionalidades principais para maior clareza e alinhamento com as necessidades do projeto:
 
-    - Cadastro com verificação de identidade.
-    - Autenticação multifator (MFA).
-    - Recuperação de senha segura.
+---
 
-2. **Gerenciamento de Conta**
+### **Funcionalidades Principais**
 
-    - Visualização de saldo e extrato.
-    - Gestão de múltiplas contas (poupança, corrente, etc.).
-    - Configuração de perfis de conta e preferências de usuário.
+#### **1. Cadastro de Usuário e Autenticação Segura**
+- **Cadastro de usuários:** Criação de contas de usuários com validação de identidade.  
+- **Login seguro:** Implementação de autenticação multifator (MFA) para garantir maior segurança.  
+- **Recuperação de senha:** Processo automatizado e seguro para recuperação de credenciais.  
+- **Gestão de permissões:** Administradores podem gerenciar níveis de acesso e permissões por perfil de usuário.  
 
-3. **Transações Bancárias**
+#### **2. Gerenciamento de Contas**
+- **Registro de contas bancárias:** Usuários podem cadastrar e gerenciar várias contas (corrente, poupança, etc.).  
+- **Consulta de saldo e extrato:** Exibição em tempo real de saldos e extratos detalhados.  
+- **Configuração de perfis:** Personalização das contas com preferências específicas, como alertas e notificações.  
+- **Encerramento de contas:** Administradores podem fechar contas e zerar saldos, especialmente em casos departamentais.  
 
-    - Transferência entre contas.
-    - Pagamento de contas e serviços.
-    - Histórico de transações e exportação de extratos.
+#### **3. Transações Bancárias**
+- **Realização de transações:** Funcionalidades para depósitos, transferências e saques com confirmação em tempo real.  
+- **Pagamentos:** Opções para pagamento de contas e serviços diretamente pelo sistema.  
+- **Aprovação de transações:** Gerentes financeiros têm a responsabilidade de validar ou recusar transações realizadas por outros usuários.  
 
-4. **Controle e Acompanhamento Financeiro**
+#### **4. Histórico de Transações**
+- **Consulta detalhada:** Usuários podem acessar o histórico completo de transações, com informações sobre data, valor e descrição.  
+- **Exportação de dados:** Disponibilização de relatórios financeiros em formatos como PDF ou CSV.  
 
-    - Visualização de gráficos e relatórios financeiros.
-    - Análise de despesas e receitas.
-    - Configuração de metas e orçamentos.
+#### **5. Controle e Acompanhamento Financeiro**
+- **Relatórios financeiros:** Geração automática de gráficos e relatórios com análises de despesas e receitas.  
+- **Configuração de metas:** Usuários podem definir orçamentos e metas financeiras.  
+- **Monitoramento de desempenho:** Sistema que envia alertas sobre desvios das metas ou comportamento financeiro suspeito.  
 
-5. **Suporte e Segurança**
-    - Chatbot e atendimento humano para suporte.
-    - Monitoramento de atividades suspeitas e alertas de segurança.
-    - Proteção de dados e conformidade com LGPD.
+#### **6. Consultas e Relatórios Avançados**
+- **Relatórios consolidados:** Gerentes podem acessar relatórios financeiros por usuário, conta ou departamento.  
+- **Visualização em tempo real:** Atualização instantânea de saldos e movimentações.  
 
-### Funcionalidades Futuras
+#### **7. Suporte e Segurança**
+- **Atendimento ao usuário:** Chatbot automatizado e suporte humano para resolução de problemas.  
+- **Monitoramento de atividades:** Detecção de atividades suspeitas com envio de alertas.  
+- **Conformidade com LGPD:** Proteção de dados dos usuários e adesão à legislação vigente.  
 
--   Integração com serviços de terceiros (e.g., carteiras digitais, investimentos).
--   Recursos de personalização de interface.
--   Funcionalidades de planejamento financeiro avançado.
+---
+
+### **Funcionalidades Futuras**
+- **Integração com serviços de terceiros:** Compatibilidade com carteiras digitais, investimentos e sistemas de pagamento externos.  
+- **Personalização da interface:** Recursos para customização da interface do usuário.  
+- **Planejamento financeiro avançado:** Ferramentas para simulações e estratégias financeiras detalhadas.  
+- **Automação de pagamentos recorrentes:** Configuração de débitos automáticos para serviços e contas.  
+
 
 ## 3. Objetivos do Projeto
 
@@ -113,9 +129,6 @@ Total estimado: 6 meses e 2 semanas
 
 **Responsável pela Aprovação Final**: Comitê de Governança do Projeto (Gerente de Projeto, CTO, e representantes de segurança e compliance).
 
----
-
-Esse plano abrange as principais etapas e recursos para o desenvolvimento de uma plataforma bancária digital, com foco em segurança, usabilidade e conformidade.
 
 ## Conhecimentos:
 
